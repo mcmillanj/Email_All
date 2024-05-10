@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 
 //route handler looking for http reguest with the / to get info for a particulr route
+//This is for a new github upddate
 app.get('/', (req, res) => {
   res.send({ hi: 'there' })
 })
